@@ -1,0 +1,271 @@
+{
+  "entrySpaceId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+  "objects": {
+    "30a53e2a-0e64-4765-8ff1-107bfe91a61c": {
+      "components": {},
+      "geometry": null,
+      "id": "30a53e2a-0e64-4765-8ff1-107bfe91a61c",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "64670b60-7f20-4b1a-8a42-5cfe301dad44": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0.16,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "64670b60-7f20-4b1a-8a42-5cfe301dad44",
+      "inrePivot": [
+        0,
+        -0.28125,
+        0
+      ],
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/chica.mp4"
+        },
+        "inreMaterial": "chica"
+      },
+      "name": "chica",
+      "order": 5.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        0,
+        0.28125,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "9f3dd3cf-9d52-439b-b74a-48a1ccfb5760": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "9f3dd3cf-9d52-439b-b74a-48a1ccfb5760",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "9f6b0ab3-ec0e-42b0-82ee-0b58cf0abc4a": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "id": "9f6b0ab3-ec0e-42b0-82ee-0b58cf0abc4a",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/chica.mp4"
+        },
+        "inreMaterial": "chica"
+      },
+      "name": "Esfera",
+      "order": 4.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "b0f5ca20-293f-4e7d-ae60-e0ad0be16405": {
+      "components": {},
+      "geometry": null,
+      "id": "b0f5ca20-293f-4e7d-ae60-e0ad0be16405",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "f2a6d9b1-7dea-4be8-a06f-74f0569b52cf": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": false,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "f2a6d9b1-7dea-4be8-a06f-74f0569b52cf",
+      "material": {
+        "type": "basic",
+        "color": "#7611b6",
+        "textureFiltering": "sharp"
+      },
+      "name": "Cubo",
+      "order": 3.5,
+      "parentId": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "position": [
+        0,
+        0.5,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    }
+  },
+  "spaces": {
+    "36c9dec6-3c0f-4f6c-b515-07777dedfc76": {
+      "activeCamera": "9f3dd3cf-9d52-439b-b74a-48a1ccfb5760",
+      "id": "36c9dec6-3c0f-4f6c-b515-07777dedfc76",
+      "name": "Espacio principal"
+    }
+  }
+}
